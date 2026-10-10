@@ -3,20 +3,245 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>3D Vault</title>
-<style>
-  :root { --bg: #ffffff; --text: #1d2129; --muted: #5d6573; --accent: #00a38d; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #16181d; --text: #e6e8ec; --muted: #9aa2b0; --accent: #00c2a8; } }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 "Segoe UI", system-ui, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 56px 16px; }
-  h1 { font-size: 40px; margin: 0; } p { color: var(--muted); } a { color: var(--accent); }
-</style>
+<title>3D Vault – Your 3D print library, organized | ADK Workshop</title>
+<meta name="description" content="3D Vault is a fast, local library for 3D print files on Windows: STL, OBJ, 3MF, G-code and models inside ZIP, RAR and 7z archives. Previews, search, 3D viewer, print records and filament tracking.">
+<meta property="og:title" content="3D Vault – Your 3D print library, organized">
+<meta property="og:description" content="A fast, local library for STL, OBJ, 3MF and G-code files – including models inside ZIP, RAR and 7z archives.">
+<meta property="og:image" content="https://adkworkshop.com/assets/og-image.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://adkworkshop.com/">
+<link rel="alternate" hreflang="tr" href="https://adkworkshop.com/tr/">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
-  <h1>3D Vault</h1>
-  <p>A fast, local library for your 3D print files — STL, OBJ, 3MF, G-code and ZIP/RAR/7z archives. By ADK Workshop.</p>
-  <p><a href="privacy.html">Privacy policy</a> · <a href="privacy.html#tr">Gizlilik politikası</a> · <a href="mailto:adkworkshop@outlook.com">Support</a></p>
-</main>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-64.png" alt="">3D Vault <small>by ADK Workshop</small></a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#video">Video</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a class="lang" href="tr/" hreflang="tr" lang="tr">Türkçe</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="logo" src="assets/icon-256.png" alt="3D Vault">
+    <h1>Every 3D model you own.<br>One fast, searchable library.</h1>
+    <p class="lead">3D Vault turns the folders, drives and network shares where you keep your STL, OBJ, 3MF and G-code files – even the ones packed inside ZIP, RAR and 7z archives – into a visual catalog you can search in milliseconds.</p>
+    <div class="cta">
+      <!-- Store'da yayınlanınca: <a class="btn primary" href="https://apps.microsoft.com/detail/9PCZMDJ2531J"> ... Get it from Microsoft Store -->
+      <span class="btn primary soon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="two">Coming soon<span class="sub">on the Microsoft Store · Windows 10/11</span></span>
+      </span>
+      <a class="btn" href="#video">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Watch the 1-minute tour
+      </a>
+    </div>
+    <p class="note">Free version with every feature · No account · Your files never leave your computer</p>
+    <div class="shot"><img src="assets/shots/en/01-library.webp" width="1600" height="900" alt="3D Vault library with previews, folders and collections"></div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <div class="center">
+      <p class="kicker">Features</p>
+      <h2>Built for people with too many models</h2>
+      <p class="sub">Thousands of downloads, Patreon packs and remixes, spread across disks and archives. 3D Vault finds, previews and organizes them without moving a single file.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="text">
+          <h3>Find any model in seconds</h3>
+          <p>Search by name, tag, category, artist, rating, size, file type or print status – with AND / OR / NOT and parentheses. Suggestions appear as you type.</p>
+          <ul>
+            <li>Searches inside archives, not just file names</li>
+            <li>Smart collections save any search</li>
+            <li>Fast on libraries with tens of thousands of files</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="assets/shots/en/02-search.webp" width="1600" height="900" loading="lazy" alt="Advanced search with suggestions"></div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h3>Look inside archives – in 3D</h3>
+          <p>Open a ZIP, RAR or 7z and see every part with its own preview. Inspect any STL, OBJ or 3MF in the built-in 3D viewer before you extract anything.</p>
+          <ul>
+            <li>Previews from included images, 3MF/G-code thumbnails or a 3D render</li>
+            <li>One click sends models to Bambu Studio, OrcaSlicer, PrusaSlicer, Cura and others</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="assets/shots/en/03-archive-3d.webp" width="1600" height="900" loading="lazy" alt="Archive contents and 3D viewer"></div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h3>Print-ready orientation</h3>
+          <p>3D Vault analyzes how a model sits on the bed and suggests better orientations: lay flat, fewest supports, lowest height. It warns you when a model was exported slightly tilted.</p>
+          <ul>
+            <li>Overhang and bed-contact preview</li>
+            <li>The exact X/Y angles to enter in your slicer</li>
+            <li>Size check against your printers' build volumes</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="assets/shots/en/04-orientation.webp" width="1600" height="900" loading="lazy" alt="Orientation suggestions with overhang preview"></div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h3>Know the cost before you print</h3>
+          <p>Volume, weight, filament length, print time and cost estimates for every model – or the exact values read from sliced G-code and 3MF files.</p>
+          <ul>
+            <li>Print records with settings, results and photos</li>
+            <li>Send G-code to OctoPrint, Moonraker (Klipper) and PrusaLink printers</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="assets/shots/en/05-print-cost.webp" width="1600" height="900" loading="lazy" alt="Print tab with cost estimate"></div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h3>Keep track of your filament</h3>
+          <p>Brand, material, color, amount left and price for every spool. Filament used in a print record is deducted automatically, and you are warned when stock runs low.</p>
+          <ul>
+            <li>Optional sync with your own Spoolman server</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="assets/shots/en/06-spools.webp" width="1600" height="900" loading="lazy" alt="Filament spools"></div>
+      </div>
+
+      <div class="feature">
+        <div class="text">
+          <h3>Plan prints with collections</h3>
+          <p>Group models into collections and print queues with to-print, printing and printed states. Share a whole collection – models, settings and photos – as a single ZIP.</p>
+        </div>
+        <div class="shot"><img src="assets/shots/en/07-collection.webp" width="1600" height="900" loading="lazy" alt="Collection used as a print queue"></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="ic">🔒</div><h4>Private by design</h4><p>No account, no cloud, no telemetry. Notes and previews live next to your library.</p></div>
+      <div class="card"><div class="ic">🧳</div><h4>Portable libraries</h4><p>Move the folder to another PC or a NAS and everything comes with it.</p></div>
+      <div class="card"><div class="ic">🏷️</div><h4>Bulk editing</h4><p>Tags, categories, artists, ratings and status for hundreds of files at once.</p></div>
+      <div class="card"><div class="ic">📄</div><h4>Artist &amp; license</h4><p>Read from README/LICENSE files and model pages like Printables and Thingiverse.</p></div>
+      <div class="card"><div class="ic">🧹</div><h4>Duplicate finder</h4><p>Finds copies across folders and archives, with a quarantine you can undo.</p></div>
+      <div class="card"><div class="ic">📱</div><h4>On your phone</h4><p>Optional PIN-protected access from phones and tablets on your home network.</p></div>
+      <div class="card"><div class="ic">🖼️</div><h4>Image editing</h4><p>Rotate, flip and crop cover images without leaving the app.</p></div>
+      <div class="card"><div class="ic">🌗</div><h4>Dark &amp; light</h4><p>Dark and light themes, English and Turkish interface.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="video" class="alt">
+  <div class="wrap center">
+    <p class="kicker">Tour</p>
+    <h2>3D Vault in 60 seconds</h2>
+    <div class="video">
+      <video controls preload="none" playsinline poster="assets/video/3DVault-trailer-en-poster.jpg">
+        <source src="assets/video/3DVault-trailer-en.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="center">
+      <p class="kicker">Pricing</p>
+      <h2>Try everything free. Pay once if you need more.</h2>
+      <p class="sub">No subscription. The free version has every feature; Pro removes the size limits.</p>
+    </div>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <div class="price">$0</div>
+        <div class="per">forever</div>
+        <ul>
+          <li>Every feature</li>
+          <li>1 library</li>
+          <li>Up to 500 files</li>
+          <li>Free updates</li>
+        </ul>
+      </div>
+      <div class="plan pro">
+        <h3>3D Vault Pro <span class="badge">Launch offer</span></h3>
+        <div class="price">$14.99<s>$19.99</s></div>
+        <div class="per">one-time purchase · first two months after launch</div>
+        <ul>
+          <li>Every feature</li>
+          <li>Unlimited libraries</li>
+          <li>Unlimited files</li>
+          <li>Lifetime license with all future updates</li>
+        </ul>
+      </div>
+    </div>
+    <p class="center" style="color:var(--muted);font-size:14px;margin-top:18px">Pro is an in-app purchase through the Microsoft Store, tied to your Microsoft account. Local prices may vary.</p>
+  </div>
+</section>
+
+<section id="faq" class="alt">
+  <div class="wrap">
+    <div class="center">
+      <p class="kicker">FAQ</p>
+      <h2>Questions</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>Does 3D Vault move, rename or upload my files?</summary>
+        <p>No. Your files stay exactly where they are. 3D Vault stores its previews and notes in a hidden <code>.3dvault</code> folder inside each library, so nothing is uploaded and nothing is reorganized unless you ask for it.</p>
+      </details>
+      <details>
+        <summary>Which file types are supported?</summary>
+        <p>STL, OBJ, 3MF and G-code, plus models inside ZIP, RAR and 7z archives. Images next to a model or inside its archive are used as previews.</p>
+      </details>
+      <details>
+        <summary>Can I use a library on a NAS or network share?</summary>
+        <p>Yes. Add any folder you can open in Windows – local disk, external drive or network share. Because the library data is stored with the files, another PC can open the same library later.</p>
+      </details>
+      <details>
+        <summary>What happens when I reach the free limit?</summary>
+        <p>The free version shows one library with up to 500 files and keeps every feature. Upgrading to Pro unlocks all your libraries and files instantly – nothing needs to be rescanned by hand.</p>
+      </details>
+      <details>
+        <summary>Is Pro a subscription?</summary>
+        <p>No. Pro is a one-time purchase with a lifetime license, including all future updates.</p>
+      </details>
+      <details>
+        <summary>Does it need an internet connection?</summary>
+        <p>No. 3D Vault works fully offline. It only connects when you use an online feature such as searching Printables or reading a model page – and only to the site you chose.</p>
+      </details>
+      <details>
+        <summary>Is there a Mac version?</summary>
+        <p>Not yet. 3D Vault currently runs on Windows 10 and 11 (64-bit). A macOS version is planned.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 ADK Workshop</span>
+    <div class="links">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="mailto:adkworkshop@outlook.com">Support</a>
+      <a href="tr/" hreflang="tr" lang="tr">Türkçe</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lb"><img alt=""></div>
+<script src="assets/site.js"></script>
 </body>
 </html>
