@@ -97,6 +97,12 @@ h2 { font-size: clamp(28px, 4vw, 38px); line-height: 1.15; margin: 0 0 14px; let
 .plan li.no::before { content: "–"; color: var(--muted); }
 .badge { display: inline-block; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 99px; margin-left: 8px; vertical-align: middle; }
 
+/* anahtarlık */
+#keychain .feature { margin-top: 40px; }
+.feature .kc-shot { border: 0; box-shadow: none; background: radial-gradient(ellipse at center, var(--accent-soft), transparent 70%); }
+.kc-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+.kc-note { font-size: 14px; margin-top: 14px !important; }
+
 /* SSS */
 .faq { max-width: 780px; margin: 32px auto 0; }
 .faq details { border-bottom: 1px solid var(--line); padding: 16px 0; }
