@@ -104,6 +104,15 @@ h2 { font-size: clamp(28px, 4vw, 38px); line-height: 1.15; margin: 0 0 14px; let
 .kc-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
 .kc-note { font-size: 14px; margin-top: 14px !important; }
 
+/* ücretsiz modeller */
+#free-models .feature { margin-top: 40px; grid-template-columns: 7fr 5fr; }
+#free-models .text h3 { font-size: 24px; margin: 0 0 10px; }
+.model-shot { position: relative; overflow: visible; }
+.model-shot img { border-radius: 12px; }
+.model-shot .model-bottom { position: absolute; right: -10px; bottom: -18px; width: 38%; border: 3px solid var(--bg2);
+  border-radius: 12px; box-shadow: 0 12px 30px -10px var(--shadow); cursor: default; }
+@media (max-width: 860px) { #free-models .feature { grid-template-columns: 1fr; } #free-models .shot { order: -1; } }
+
 /* SSS */
 .faq { max-width: 780px; margin: 32px auto 0; }
 .faq details { border-bottom: 1px solid var(--line); padding: 16px 0; }
