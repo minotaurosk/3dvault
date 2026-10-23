@@ -1,0 +1,137 @@
+[
+  {
+    "id": "prismwing-hatchling",
+    "added": "2026-10-23",
+    "name": {
+      "en": "Prismwing Hatchling",
+      "tr": "Prismwing Hatchling"
+    },
+    "image": "models/prismwing-hatchling.webp",
+    "bottom": "models/prismwing-hatchling-bottom.webp",
+    "zip": "Prismwing-Hatchling-3DVault.zip",
+    "tags": {
+      "en": [
+        "Figure",
+        "Dragon",
+        "Supports"
+      ],
+      "tr": [
+        "Figür",
+        "Ejderha",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "80 mm",
+        "≈ 3.5 h",
+        "≈ 24 g PLA"
+      ],
+      "tr": [
+        "80 mm",
+        "≈ 3,5 sa",
+        "≈ 24 g PLA"
+      ]
+    },
+    "text": {
+      "en": "A baby fairy dragon on a mossy rock. It started as a 2D picture I made with AI in 2024, became 3D with Meshy AI and was made print-ready in 3D Vault: watertight, wings 1.2–2 mm thick.",
+      "tr": "Yosunlu kaya üstünde bebek peri ejderha. 2024'te AI ile yaptığım 2D bir resimdi; Meshy AI ile 3D'ye çevrildi, 3D Vault'ta baskıya hazırlandı: su geçirmez, kanatlar 1,2–2 mm."
+    },
+    "credit": {
+      "en": "Original art: ADK Workshop (AI, 2024) · 3D: Meshy AI",
+      "tr": "Özgün görsel: ADK Workshop (AI, 2024) · 3D: Meshy AI"
+    }
+  },
+  {
+    "id": "chibi-barbarian",
+    "added": "2026-10-20",
+    "name": {
+      "en": "Chibi Barbarian",
+      "tr": "Chibi Barbar"
+    },
+    "image": "models/chibi-barbarian-color.webp",
+    "bottom": "models/chibi-barbarian-bottom.webp",
+    "zip": "Chibi-Barbarian-3DVault.zip",
+    "tags": {
+      "en": [
+        "Figure",
+        "Fantasy",
+        "Supports"
+      ],
+      "tr": [
+        "Figür",
+        "Fantastik",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "80 mm",
+        "≈ 4.5 h",
+        "PLA / resin"
+      ],
+      "tr": [
+        "80 mm",
+        "≈ 4,5 sa",
+        "PLA / reçine"
+      ]
+    },
+    "text": {
+      "en": "A smiling barbarian girl on a tree stump. Meshy AI's model had 63 holes and was saved in meters; we scaled it, remeshed it watertight and checked it again in 3D Vault.",
+      "tr": "Kütük üstünde gülümseyen barbar kız. Meshy AI modelinde 63 delik vardı ve metre cinsindendi; ölçekledik, su geçirmez yaptık ve 3D Vault'ta yeniden kontrol ettik."
+    },
+    "credit": {
+      "en": "3D: Meshy AI",
+      "tr": "3D: Meshy AI"
+    }
+  },
+  {
+    "id": "keychain",
+    "added": "2026-10-16",
+    "name": {
+      "en": "3D Vault Keychain",
+      "tr": "3D Vault Anahtarlık"
+    },
+    "image": "keychain.webp",
+    "bottom": "",
+    "zip": "3DVault-Keychain.zip",
+    "extra": {
+      "file": "3DVault-Keychain.3mf",
+      "en": "3MF only",
+      "tr": "Sadece 3MF"
+    },
+    "tags": {
+      "en": [
+        "Keychain",
+        "2 colors",
+        "No supports"
+      ],
+      "tr": [
+        "Anahtarlık",
+        "2 renk",
+        "Desteksiz"
+      ]
+    },
+    "specs": {
+      "en": [
+        "78 × 24 × 4 mm",
+        "≈ 25 min",
+        "≈ 6 g PLA"
+      ],
+      "tr": [
+        "78 × 24 × 4 mm",
+        "≈ 25 dk",
+        "≈ 6 g PLA"
+      ]
+    },
+    "text": {
+      "en": "Dark base, teal logo and lettering. 3MF with two parts for AMS / multi-material printers, or STL for one color with a filament change at 3.0 mm.",
+      "tr": "Koyu taban, turkuaz logo ve yazı. AMS / çok malzemeli yazıcılar için iki parçalı 3MF ya da 3,0 mm'de filament değişimiyle tek renk STL."
+    },
+    "credit": {
+      "en": "Design: ADK Workshop",
+      "tr": "Tasarım: ADK Workshop"
+    },
+    "fit": "contain"
+  }
+]
