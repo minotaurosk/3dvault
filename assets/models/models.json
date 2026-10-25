@@ -1,5 +1,48 @@
 [
   {
+    "id": "pumpkin-witchling",
+    "added": "2026-10-25",
+    "name": {
+      "en": "Pumpkin Witchling",
+      "tr": "Pumpkin Witchling"
+    },
+    "image": "models/pumpkin-witchling.webp",
+    "bottom": "models/pumpkin-witchling-bottom.webp",
+    "zip": "Pumpkin-Witchling-3DVault.zip",
+    "tags": {
+      "en": [
+        "Halloween",
+        "Figure",
+        "Supports"
+      ],
+      "tr": [
+        "Cadılar Bayramı",
+        "Figür",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "78 mm",
+        "≈ 5 h",
+        "≈ 40 g PLA"
+      ],
+      "tr": [
+        "78 mm",
+        "≈ 5 sa",
+        "≈ 40 g PLA"
+      ]
+    },
+    "text": {
+      "en": "Pumpkin Patch Pals #1: a cute little witch on her jack-o'-lantern. Watertight, flat bottom for a solid first layer, checked in 3D Vault. More of the series every couple of days until Halloween.",
+      "tr": "Kabak Bahçesi Dostları #1: balkabağının üstünde sevimli küçük cadı. Su geçirmez, sağlam ilk katman için düz taban, 3D Vault ile kontrol edildi. Serinin diğerleri Cadılar Bayramı'na kadar iki günde bir."
+    },
+    "credit": {
+      "en": "Art: ADK Workshop (AI) · 3D: Meshy AI",
+      "tr": "Görsel: ADK Workshop (AI) · 3D: Meshy AI"
+    }
+  },
+  {
     "id": "prismwing-hatchling",
     "added": "2026-10-23",
     "name": {
