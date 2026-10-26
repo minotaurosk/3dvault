@@ -1,5 +1,48 @@
 [
   {
+    "id": "candy-boo",
+    "added": "2026-10-26",
+    "name": {
+      "en": "Candy Boo",
+      "tr": "Candy Boo"
+    },
+    "image": "models/candy-boo.webp",
+    "bottom": "models/candy-boo-bottom.webp",
+    "zip": "Candy-Boo-3DVault.zip",
+    "tags": {
+      "en": [
+        "Halloween",
+        "Figure",
+        "Supports"
+      ],
+      "tr": [
+        "Cadılar Bayramı",
+        "Figür",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "80 mm",
+        "≈ 3 h at 70 %",
+        "≈ 27 g PLA at 70 %"
+      ],
+      "tr": [
+        "80 mm",
+        "%70: ≈ 3 sa",
+        "%70: ≈ 27 g PLA"
+      ]
+    },
+    "text": {
+      "en": "Pumpkin Patch Pals #2: a little ghost with a candy bucket on autumn leaves. Watertight, flat bottom, checked in 3D Vault. Full size is chunky (8 h, 78 g), so 70 % is a good start.",
+      "tr": "Kabak Bahçesi Dostları #2: sonbahar yapraklarında şeker kovalı küçük hayalet. Su geçirmez, düz taban, 3D Vault ile kontrol edildi. Tam boy iri (8 sa, 78 g); %70 iyi bir başlangıç."
+    },
+    "credit": {
+      "en": "Art: ADK Workshop (AI) · 3D: Meshy AI",
+      "tr": "Görsel: ADK Workshop (AI) · 3D: Meshy AI"
+    }
+  },
+  {
     "id": "pumpkin-witchling",
     "added": "2026-10-25",
     "name": {
