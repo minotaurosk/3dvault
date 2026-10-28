@@ -1,5 +1,48 @@
 [
   {
+    "id": "tiny-bat-prince",
+    "added": "2026-10-28",
+    "name": {
+      "en": "Tiny Bat Prince",
+      "tr": "Tiny Bat Prince"
+    },
+    "image": "models/tiny-bat-prince.webp",
+    "bottom": "models/tiny-bat-prince-bottom.webp",
+    "zip": "Tiny-Bat-Prince-3DVault.zip",
+    "tags": {
+      "en": [
+        "Halloween",
+        "Figure",
+        "Supports"
+      ],
+      "tr": [
+        "Cadılar Bayramı",
+        "Figür",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "79 mm",
+        "≈ 5 h",
+        "≈ 39 g PLA"
+      ],
+      "tr": [
+        "79 mm",
+        "≈ 5 sa",
+        "≈ 39 g PLA"
+      ]
+    },
+    "text": {
+      "en": "Pumpkin Patch Pals #4: a tiny vampire on a BOO tombstone, hugging his pet bat. Watertight, flat bottom, checked in 3D Vault.",
+      "tr": "Kabak Bahçesi Dostları #4: BOO mezar taşında oturan, yarasasına sarılmış minik vampir. Su geçirmez, düz taban, 3D Vault ile kontrol edildi."
+    },
+    "credit": {
+      "en": "Art: ADK Workshop (AI) · 3D: Meshy AI",
+      "tr": "Görsel: ADK Workshop (AI) · 3D: Meshy AI"
+    }
+  },
+  {
     "id": "pumpkin-purrfection",
     "added": "2026-10-27",
     "name": {
