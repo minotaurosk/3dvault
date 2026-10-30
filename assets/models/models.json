@@ -1,5 +1,48 @@
 [
   {
+    "id": "cozy-ghost-cottage",
+    "added": "2026-10-30",
+    "name": {
+      "en": "Cozy Ghost Cottage",
+      "tr": "Cozy Ghost Cottage"
+    },
+    "image": "models/cozy-ghost-cottage.webp",
+    "bottom": "models/cozy-ghost-cottage-bottom.webp",
+    "zip": "Cozy-Ghost-Cottage-3DVault.zip",
+    "tags": {
+      "en": [
+        "Halloween",
+        "Decor",
+        "Supports"
+      ],
+      "tr": [
+        "Cadılar Bayramı",
+        "Dekor",
+        "Destekli"
+      ]
+    },
+    "specs": {
+      "en": [
+        "78 mm",
+        "≈ 5 h",
+        "≈ 45 g PLA"
+      ],
+      "tr": [
+        "78 mm",
+        "≈ 5 sa",
+        "≈ 45 g PLA"
+      ]
+    },
+    "text": {
+      "en": "Pumpkin Patch Pals #6, the finale: a crooked little cottage with a ghost peeking out of the chimney. Watertight, flat bottom, checked in 3D Vault.",
+      "tr": "Kabak Bahçesi Dostları #6, serinin sonu: bacasından hayalet bakan eğri büğrü minik kulübe. Su geçirmez, düz taban, 3D Vault ile kontrol edildi."
+    },
+    "credit": {
+      "en": "Art: ADK Workshop (AI) · 3D: Meshy AI",
+      "tr": "Görsel: ADK Workshop (AI) · 3D: Meshy AI"
+    }
+  },
+  {
     "id": "batwing-pumpkin-bowl",
     "added": "2026-10-29",
     "name": {
